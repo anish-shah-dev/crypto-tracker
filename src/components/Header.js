@@ -31,7 +31,7 @@ const darkTheme = createTheme({
 });
 function Header() {
   const classes = useStyles();
-  const { currency, setCurrency } = CryptoState();
+  const { currency } = CryptoState();
 
   console.log(currency);
 

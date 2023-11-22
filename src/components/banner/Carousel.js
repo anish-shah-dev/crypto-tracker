@@ -14,7 +14,7 @@ import { numberWithCommas } from "../../lib/util";
 function Carousel() {
   const [trending, setTrending] = useState([]);
   const navigate = useNavigate();
-  const { currency, symbol } = CryptoState();
+  const { currency } = CryptoState();
 
   const useStyles = makeStyles(() => ({
     carousel: {
@@ -63,6 +63,7 @@ function Carousel() {
 
   useEffect(() => {
     fetchTrendingCoins();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [currency]);
 
   const responsive = {

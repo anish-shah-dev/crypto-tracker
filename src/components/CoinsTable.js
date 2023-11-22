@@ -30,7 +30,7 @@ export default function CoinsTable() {
   const [search, setSearch] = useState("");
   const [page, setPage] = useState(1);
 
-  const { currency, symbol } = CryptoState();
+  const { currency } = CryptoState();
 
   const useStyles = makeStyles({
     row: {
