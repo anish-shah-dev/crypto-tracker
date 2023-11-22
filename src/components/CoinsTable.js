@@ -9,7 +9,6 @@ import {
   TableCell,
   LinearProgress,
   ThemeProvider,
-  Typography,
   TextField,
   TableBody,
   TableRow,
@@ -50,8 +49,6 @@ export default function CoinsTable() {
 
   const classes = useStyles();
   const navigate = useNavigate();
-
-  console.log("benchod", coins); 
 
   const darkTheme = createTheme({
     palette: {

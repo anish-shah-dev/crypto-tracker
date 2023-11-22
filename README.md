@@ -1,5 +1,5 @@
 <h1 align="center">
-Coin-Stats
+Crypto Tracker
 </h1>
 
 <h2 align="center">
@@ -7,24 +7,13 @@ Coin-Stats
 </h2>
 
 <p align="center">
-Here I plan to build an app to track the crypto currency and plot their graph. Users can view all the latest cryptocurrencies. They can search for any cryptocurrency and view their historical chart  in a 24 hours change, 30 days change, 3 months change and 1 year change. 
-</p>
+A simple and intuitive app to track the crypto currencies
+</p>  
 
-
-<img src="ssh.jpg">
-<img src="2ss.jpg">
 <hr/>
 <hr />
 
 #### check out the deployed project :https://coin-stats-tracker.vercel.app/
-## :fire: Features
-
-:white_check_mark: Clean interface  \
-:white_check_mark: Easy to Navigate dashboard \
-:white_check_mark: No reloading of whole page \
-:white_check_mark: Fine charts from Chart.js \
-:white_check_mark: Latest updates of all crypto at your fingertips  \
-:white_check_mark: Stats from 24hr to 1 year \
 
 ## 🛠️ Technologies used 
 The technology used are
@@ -33,7 +22,6 @@ The technology used are
 - [ChartJs](https://www.npmjs.com/package/react-chartjs-2)
 - [MaterialUi](https://mui.com/)
 - [GitHub](https://github.com)
-- [vercel](https://vercel.com)
 
 
 <hr />
